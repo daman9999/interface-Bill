@@ -1,0 +1,152 @@
+////////////////////////////////
+UninstallName
+GSview 5.0
+
+////////////////////////////////
+RegistryNew
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Ghostgum]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Ghostgum\GSview]
+"5.0"="D:\\interface-bill\\GS\\"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\gsview64.exe]
+@="D:\\interface-bill\\GS\\\\gsview\\gsview64.exe"
+"Path"="D:\\interface-bill\\GS\\\\gsview"
+
+[HKEY_CLASSES_ROOT\.ps]
+@="psfile"
+"Content Type"="application/postscript"
+
+[HKEY_CLASSES_ROOT\.eps]
+@="psfile"
+"Content Type"="application/postscript"
+
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/postscript]
+"Extension"=".ps"
+
+[HKEY_CLASSES_ROOT\psfile]
+@="PostScript"
+
+[HKEY_CLASSES_ROOT\psfile\shell]
+
+[HKEY_CLASSES_ROOT\psfile\shell\open]
+
+[HKEY_CLASSES_ROOT\psfile\shell\open\command]
+@=""D:\\interface-bill\\GS\\\\gsview\\gsview64.exe" "%1""
+
+[HKEY_CLASSES_ROOT\psfile\shell\print]
+
+[HKEY_CLASSES_ROOT\psfile\shell\print\command]
+@=""D:\\interface-bill\\GS\\\\gsview\\gsview64.exe" /p "%1""
+
+[HKEY_CLASSES_ROOT\psfile\DefaultIcon]
+@="D:\\interface-bill\\GS\\\\gsview\\gsview64.exe,3"
+
+[HKEY_CLASSES_ROOT\.pdf]
+@="pdffile"
+"Content Type"="application/pdf"
+
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/pdf]
+"Extension"=".pdf"
+
+[HKEY_CLASSES_ROOT\pdffile]
+@="Portable Document Format"
+
+[HKEY_CLASSES_ROOT\pdffile\shell]
+
+[HKEY_CLASSES_ROOT\pdffile\shell\open]
+
+[HKEY_CLASSES_ROOT\pdffile\shell\open\command]
+@=""D:\\interface-bill\\GS\\\\gsview\\gsview64.exe" "%1""
+
+[HKEY_CLASSES_ROOT\pdffile\shell\print]
+
+[HKEY_CLASSES_ROOT\pdffile\shell\print\command]
+@=""D:\\interface-bill\\GS\\\\gsview\\gsview64.exe" /p "%1""
+
+[HKEY_CLASSES_ROOT\pdffile\DefaultIcon]
+@="D:\\interface-bill\\GS\\\\gsview\\gsview64.exe,3"
+
+////////////////////////////////
+RegistryOld
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\.ps]
+"Content Type"="application/postscript"
+
+[HKEY_CLASSES_ROOT\.eps]
+@="Adobe.Illustrator.EPS"
+"Content Type"="application/postscript"
+
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/postscript]
+"Extension"=".ps"
+
+[HKEY_CLASSES_ROOT\.pdf]
+"Content Type"="application/pdf"
+
+[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/pdf]
+"Extension"=".pdf"
+
+////////////////////////////////
+ShellNew
+Group=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Ghostgum
+
+Name=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Ghostgum\GSview 5.0.LNK
+Path=D:\interface-bill\GS\\gsview\gsview64.exe
+Description=GSview 5.0
+Arguments=
+
+Name=C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Ghostgum\GSview Readme 5.0.LNK
+Path=D:\interface-bill\GS\\gsview\Readme.htm
+Description=GSview Readme 5.0
+
+
+////////////////////////////////
+ShellOld
+
+////////////////////////////////
+FileNew
+D:\interface-bill\GS\pstotext\pstotext.1
+D:\interface-bill\GS\pstotext\pstotext.txt
+D:\interface-bill\GS\pstotext\pstotxt3.dll
+D:\interface-bill\GS\pstotext\pstotxt3.exe
+D:\interface-bill\GS\gsview\gsview64.exe
+D:\interface-bill\GS\gsview\gsviewct.chm
+D:\interface-bill\GS\gsview\gsviewde.chm
+D:\interface-bill\GS\gsview\gsviewen.chm
+D:\interface-bill\GS\gsview\gsviewes.chm
+D:\interface-bill\GS\gsview\gsviewfr.chm
+D:\interface-bill\GS\gsview\gsviewgr.chm
+D:\interface-bill\GS\gsview\gsviewit.chm
+D:\interface-bill\GS\gsview\gsviewnl.chm
+D:\interface-bill\GS\gsview\gsviewru.chm
+D:\interface-bill\GS\gsview\gsviewsk.chm
+D:\interface-bill\GS\gsview\gsviewse.chm
+D:\interface-bill\GS\gsview\gsvw64ct.dll
+D:\interface-bill\GS\gsview\gsvw64de.dll
+D:\interface-bill\GS\gsview\gsvw64es.dll
+D:\interface-bill\GS\gsview\gsvw64fr.dll
+D:\interface-bill\GS\gsview\gsvw64gr.dll
+D:\interface-bill\GS\gsview\gsvw64it.dll
+D:\interface-bill\GS\gsview\gsvw64nl.dll
+D:\interface-bill\GS\gsview\gsvw64ru.dll
+D:\interface-bill\GS\gsview\gsvw64sk.dll
+D:\interface-bill\GS\gsview\gsvw64se.dll
+D:\interface-bill\GS\gsview\gvwgs64.exe
+D:\interface-bill\GS\gsview\gsvwrg64.exe
+D:\interface-bill\GS\gsview\uninstgs.exe
+D:\interface-bill\GS\gsview\printer.ini
+D:\interface-bill\GS\gsview\gsview64.ini
+D:\interface-bill\GS\gsview\zlib64.dll
+D:\interface-bill\GS\gsview\libbz2.dll
+D:\interface-bill\GS\gsview\gsprint.exe
+D:\interface-bill\GS\gsview\gsprint.htm
+D:\interface-bill\GS\gsview\epstool.htm
+D:\interface-bill\GS\gsview\Readme.htm
+D:\interface-bill\GS\gsview\gsview.css
+D:\interface-bill\GS\gsview\regorder.txt
+D:\interface-bill\GS\gsview\LICENCE
+
+////////////////////////////////
